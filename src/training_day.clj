@@ -15,3 +15,11 @@
   "Takes two numbers and return their average"
   [a b]
   (/ (+ a b) 2))
+
+(defn myfn
+  [n]
+  (if (< n 10) true false))
+
+(myfn 2)
+(myfn 10)
+(square 9)
